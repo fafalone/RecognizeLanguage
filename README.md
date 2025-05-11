@@ -1,7 +1,8 @@
 # RecognizeLanguage
 A short demo of the Windows ELS API in twinBASIC 
 
-![image](https://github.com/user-attachments/assets/2c481e4e-e842-4d40-b8b8-4ab80fd2991f)
+![image](https://github.com/user-attachments/assets/2c481e4e-e842-4d40-b8b8-4ab80fd2991f) ![image](https://github.com/user-attachments/assets/fbd93d72-adf6-4134-a454-afbf83242c1d)
+
 
 
 This is just a small snippet of basic language recognition with the built in Windows API `MappingRecognizeText`.
