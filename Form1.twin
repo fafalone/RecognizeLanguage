@@ -1,9 +1,24 @@
-[Description("")]
+[Description("ELS Language Recognizer")]
 [FormDesignerId("F31A56E2-C65E-4A48-82D6-E6D50B2A23C9")]
 [PredeclaredId]
 Class Form1
-
-    
+    '*****************************************************************
+    'RecognizeLang v1.1.3
+    'ELS Language Recognizer
+    '(c) 2025
+    'by Jon Johnson, ported from example by Microsoft.
+    '
+    'Use the Windows ELS API MappingRecognizeText to determine the
+    'language of given text.
+    '
+    'Requirements:
+    'Windows 7+
+    'WinDevLib v8.12.530+
+    '
+    'Project repository: https://github.com/fafalone/RecognizeLanguage
+    '
+    '*****************************************************************
+        
     Private Function RecognizeLanguage(ByVal sText As String, pMatches As String()) As Long
         Dim EnumOptions As MAPPING_ENUM_OPTIONS
         Dim prgServices As LongPtr 'PMAPPING_SERVICE_INFO   
