@@ -10,7 +10,7 @@ It returns codes like `en` for English and `fr` for French.
 
 **Requirements**\
 Windows 7+\
-Package: "Windows Development Library for twinBASIC" (WinDevLib) v8.12.530+\
+(To compile from source) twinBASIC, Package: "Windows Development Library for twinBASIC" (WinDevLib) v8.12.530+\
 (Project->References->Available Packages tab)
 
 
